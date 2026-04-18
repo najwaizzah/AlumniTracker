@@ -1,0 +1,142 @@
+body {
+  font-family: Arial;
+  margin: 0;
+
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: #2c3e50;
+
+  color: white;
+
+  padding: 15px;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 90%;
+
+  margin: auto;
+
+  margin-top: 30px;
+}
+
+/* LOGIN */
+
+.login-container {
+  width: 350px;
+
+  margin: auto;
+
+  margin-top: 120px;
+
+  padding: 30px;
+
+  background: white;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* INPUT */
+
+input {
+  width: 90%;
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+
+button {
+  background: #3498db;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* CARD */
+
+.card {
+  display: inline-block;
+
+  width: 200px;
+
+  padding: 20px;
+
+  margin: 10px;
+
+  background: white;
+
+  border-radius: 15px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* TABLE */
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background: white;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+th {
+  background: #2c3e50;
+
+  color: white;
+
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* LINK */
+
+a {
+  text-decoration: none;
+
+  color: #3498db;
+
+  font-weight: bold;
+}

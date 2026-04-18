@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    onload="
+      cekLogin();
+      hitungStatistik();
+    "
+  >
+    <div class="navbar">AlumniTracker - Dashboard</div>
+
+    <div class="container">
+      <h2>Dashboard Alumni</h2>
+
+      <div class="card">
+        Total Alumni
+        <h3 id="total">0</h3>
+      </div>
+
+      <div class="card">
+        Teridentifikasi
+        <h3 id="teridentifikasi">0</h3>
+      </div>
+
+      <div class="card">
+        Sedang Dilacak
+        <h3 id="dilacak">0</h3>
+      </div>
+
+      <div class="card">
+        Tidak Ditemukan
+        <h3 id="tidak">0</h3>
+      </div>
+
+      <br /><br />
+
+      <a href="data.html">Kelola Data Alumni</a>
+      <br />
+      <a href="pelacakan.html">Pelacakan Alumni</a>
+      <br />
+      <a href="laporan.html">Laporan</a>
+
+      <br /><br />
+
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

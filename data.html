@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Data Alumni</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    onload="
+      cekLogin();
+      tampilData();
+    "
+  >
+    <div class="navbar">AlumniTracker - Data Alumni</div>
+
+    <div class="container">
+      <h2>Input Data Alumni</h2>
+
+      <input type="text" id="nama" placeholder="Nama Alumni" />
+      <br /><br />
+
+      <input type="text" id="tahun" placeholder="Tahun Lulus" />
+      <br /><br />
+
+      <input type="text" id="kontak" placeholder="Kontak" />
+      <br /><br />
+
+      <button onclick="tambahData()">Tambah Data</button>
+
+      <br /><br />
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Tahun</th>
+            <th>Kontak</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody id="tabel"></tbody>
+      </table>
+
+      <br />
+
+      <a href="dashboard.html"> Kembali ke Dashboard </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Pelacakan Alumni</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    onload="
+      cekLogin();
+      tampilPelacakan();
+    "
+  >
+    <div class="navbar">AlumniTracker - Pelacakan Alumni</div>
+
+    <div class="container">
+      <h2>Proses Pelacakan Alumni</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Status</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+
+        <tbody id="tabelPelacakan"></tbody>
+      </table>
+
+      <br />
+
+      <a href="dashboard.html"> Kembali </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
