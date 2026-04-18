@@ -61,3 +61,11 @@ Pengujian dilakukan untuk memastikan sistem berjalan sesuai kebutuhan dan proses
 | 6  | Dashboard             | Membuka halaman dashboard   | Statistik tampil                       | Valid |
 | 7  | Laporan               | Membuka halaman laporan     | Data alumni tampil                     | Valid |
 
+## Link Repository dan Publish
+
+Link GitHub:  
+https://github.com/najwaizzah/AlumniTracker  
+
+Link Publish Web:  
+https://najwaizzah.github.io/AlumniTracker/
+
